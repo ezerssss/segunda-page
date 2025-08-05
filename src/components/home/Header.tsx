@@ -22,7 +22,7 @@ export function HeroPresentation() {
                             students, for students.
                         </Typography>
                         <div className="mt-6 sm:mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
-                            <a href="#pricing">
+                            <a href="#">
                                 <Button
                                     color="dark"
                                     className="flex items-center"

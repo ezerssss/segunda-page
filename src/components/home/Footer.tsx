@@ -49,7 +49,7 @@ const TECHS = [
 
 export function Footer() {
     return (
-        <footer className="relative z-50 bg-white px-8 pt-12 pb-6">
+        <footer className="relative z-50 bg-white px-8 pt-6 pb-6">
             <div className="container mx-auto">
                 <div className="flex flex-wrap">
                     <div className="w-full md:w-4/12">
