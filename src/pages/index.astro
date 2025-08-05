@@ -1,24 +1,28 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import HeaderPresentation from "../components/presentation/header";
-import FeaturePresentation from "../components/presentation/feature";
-import DevFreePresentation from "../components/presentation/developerFree";
-import PalettePresentationFree from "../components/presentation/palette";
-import CodePresentation from "../components/presentation/code";
-import PagesFreePresentation from "../components/presentation/pagesFree";
-import GithubPresentation from "../components/presentation/github";
-import PricingPresentation from "../components/presentation/pricing";
-import FooterFreePresentation from "../components/presentation/footerFree";
+import Header from "../components/home/Header";
+import Feature from "../components/home/Feature";
+
+import StudentCentric from "../components/home/StudentCentric";
+import SmartAndStructured from "../components/home/SmartAndStructured";
+import SafeAndDirect from "../components/home/SafeAndDirect";
+import RelevantAndOrganized from "../components/home/RelevantAndOrganized";
+
+import GitHub from "../components/home/GitHub";
+import Footer from "../components/home/Footer";
 ---
 
 <Layout title="Segunda">
     <main>
-        <HeaderPresentation client:only="react" />
-        <FeaturePresentation client:only="react" />
-        <DevFreePresentation client:only="react" />
-        <PalettePresentationFree client:only="react" />
-        <CodePresentation client:only="react" />
-        <GithubPresentation client:only="react" />
-        <FooterFreePresentation client:only="react" />
+        <Header client:only="react" />
+        <Feature client:only="react" />
+        <div class="mt-10 lg:mt-20 flex flex-col gap-16">
+            <StudentCentric client:only="react" />
+            <SmartAndStructured client:only="react" />
+            <SafeAndDirect client:only="react" />
+            <RelevantAndOrganized client:only="react" />
+        </div>
+        <GitHub client:only="react" />
+        <Footer client:only="react" />
     </main>
 </Layout>
