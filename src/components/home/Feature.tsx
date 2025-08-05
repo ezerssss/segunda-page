@@ -1,11 +1,11 @@
 import { Card, CardBody, Typography } from "@material-tailwind/react";
-import CircleIcon from "../CircleIcon";
 import {
     ShoppingBagIcon,
     AcademicCapIcon,
     BookOpenIcon,
 } from "@heroicons/react/24/solid";
 import type { ReactNode } from "react";
+import CircleIcon from "../CircleIcon";
 
 interface PropsInterface {
     icon: ReactNode;
