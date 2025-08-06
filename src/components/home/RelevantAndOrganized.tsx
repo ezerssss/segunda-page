@@ -8,8 +8,8 @@ export function RelevantAndOrganized() {
                 <div className="container mx-auto grid items-center relative lg:grid-cols-2 px-8">
                     <div className="mx-auto w-full flex justify-center lg:justify-start order-2 lg:order-1">
                         <img
-                            src="student-centric.png"
-                            alt="Student Centric"
+                            src="relevant-organized.png"
+                            alt="Relevant and Organized"
                             className="w-[80%]"
                         />
                     </div>
